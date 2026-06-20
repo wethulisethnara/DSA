@@ -19,6 +19,6 @@ public class CircularDoublyLinkedList {
         newNode.next = head;
         head.prev = newNode;
         newNode.prev = last;
-        last.next = newNode;  // ← Fixed! Removed "gi"
+        last.next = newNode; 
     }
 }
